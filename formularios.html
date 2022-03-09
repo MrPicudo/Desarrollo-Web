@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Formularios</title>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
   </head>
   <body>
     <form class="clase-1" action="respuestas.html" method="get">
@@ -20,5 +21,52 @@
       <!--Ejemplo de una caja de texto para contraseña-->
       <p>Escriba su contraseña: <input type="password" name="pass"><input type="submit" value="Acceder"></p>
     </form>
+
+    <!-- Notas de la clase del 8 de marzo
+          La diferencia entre id y class, es que el ID es único.
+          Los identificadores de estilos (ID, clases) ¿cómo funcionan?
+          Todas las etiquetas de HTMl pueden tener esos dos atributos de estilos.
+          La etiqueta name es muy importante para los formularios.
+          Agregando clases de bootstrap podemos cambiar la apariencia de los formularios,
+          Un formuario con validaciones correctas, tiene un alto porcentaje de apoyo para que el aplicativo no falle.
+          Considerar la validación de los datos desde siempre, ayuda a cuando se trabaja de manera profesional.
+          No se puede permitir que se envíen formularios en blanco.
+    -->
+    <br><br><br>
+
+    <form action="index.html" method="post">
+      <label>Escriba sus datos:</label> <br>
+      <input type="text" placeholder="Nombre"> <br>
+      <label>Sexo: </label>
+      <input type="checkbox">
+      <label>Masculino</label>
+      <input type="checkbox">
+      <label>Femenino</label>
+      <input type="checkbox">
+      <label>Otro</label>
+    </form>
+
+    <br><br><br>
+    <p>Practica-1</p> <br>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <form action="index.html" method="post">
+            <input type="text" class="first-name" name="first-name">
+            <input type="email" class="email" name="email">
+            <input type="file" class="file" name="file">
+            <input type="number" class="number" name="number">
+            <input type="date" class="date" name="date">
+          </form>
+        </div>
+        <div class="col-md-6">
+          <p>Hola</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Para nuestras bases de datos:
+    ***Estatus***, fecha de registro, fecha de sesión, actualización, usuario-actualmente-->
+
   </body>
 </html>
