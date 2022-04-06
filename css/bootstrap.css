@@ -82,9 +82,6 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  /* Código agregado */
-  background-image: url('../images/fondo-2.jpg'); /* Se utiliza ../ para regresar de carpeta */
-  background-repeat: no-repeat;
 }
 
 hr {

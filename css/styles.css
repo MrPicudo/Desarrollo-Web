@@ -1,0 +1,42 @@
+body {
+  background-image: url('../images/fondo-2.jpg'); /* Se utiliza ../ para regresar de carpeta */
+  background-repeat: no-repeat;
+}
+
+.logo {
+  width: 100px;
+  margin-right: 40px;
+}
+
+.form-control {
+  width: 250px;
+}
+
+.icono-1 {
+  width: 20px;
+  position: absolute;
+  left: 130px;
+  top: 25px;
+}
+
+.icono-2 {
+  width: 20px;
+  position: absolute;
+  left: 320px;
+  top: 25px;
+}
+
+.icono-3 {
+  width: 20px;
+  position: absolute;
+  left: 515px;
+  top: 25px;
+}
+
+#subpagina-1 {
+  margin-right: 30px;
+}
+
+#subpagina-2 {
+  margin-right: 30px;
+}
