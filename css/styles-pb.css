@@ -1,0 +1,14 @@
+/* Tag selectors */
+img {
+  width: 100px;
+}
+
+
+/* Class selectors */
+.azul {
+  background-color: blue;
+}
+
+.verde {
+  background-color: var(--bs-teal);
+}
